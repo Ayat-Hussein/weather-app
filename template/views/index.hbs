@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <p>Use this site to get your weather!</p>
+      <div>
+        <form action="" class="weForm">
+          <input type="text" class="weInput" />
+          <button class="weButton">Search</button>
+        </form>
+        <p class="weResult"></p>
+      </div>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+  </body>
+</html>
+
+{{!--
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/app.js"></script>
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <p>Use this site to get your weather!</p>
+    </div>
+
+    {{>footer}}
+  </body>
+</html>
+--}}
